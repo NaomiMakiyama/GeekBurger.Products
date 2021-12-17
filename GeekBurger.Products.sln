@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBurger.Products", "Geek
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBurger.Products.Contract", "..\GeekBurger.Products.Contract\GeekBurger.Products.Contract.csproj", "{7F06C5A4-6F41-4B95-9096-B23C328D3CE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBurger.Products.Bus", "..\GeekBurger.Products.Bus\GeekBurger.Products.Bus.csproj", "{15E52426-8798-4C0D-9238-4A1190503EB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7F06C5A4-6F41-4B95-9096-B23C328D3CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F06C5A4-6F41-4B95-9096-B23C328D3CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F06C5A4-6F41-4B95-9096-B23C328D3CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E52426-8798-4C0D-9238-4A1190503EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E52426-8798-4C0D-9238-4A1190503EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E52426-8798-4C0D-9238-4A1190503EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E52426-8798-4C0D-9238-4A1190503EB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
