@@ -6,12 +6,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="GeekBurger.Products.Bus\**" />
+    <Compile Remove="GeekBurger.Products.Contract\**" />
+    <Content Remove="GeekBurger.Products.Bus\**" />
+    <Content Remove="GeekBurger.Products.Contract\**" />
+    <EmbeddedResource Remove="GeekBurger.Products.Bus\**" />
+    <EmbeddedResource Remove="GeekBurger.Products.Contract\**" />
+    <None Remove="GeekBurger.Products.Bus\**" />
+    <None Remove="GeekBurger.Products.Contract\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GeekBurger.Products.Contract\GeekBurger.Products.Contract.csproj" />
+    <ProjectReference Include="GeekBurger.Products.Contract\GeekBurger.Products.Contract.csproj" />
   </ItemGroup>
 
 </Project>
